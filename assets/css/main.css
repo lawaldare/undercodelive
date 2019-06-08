@@ -3929,7 +3929,7 @@ h1 {
   display: none; /* Hide columns by default */
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
@@ -3969,4 +3969,35 @@ h1 {
 
 .show {
 	display: block;
-  }
+	}
+
+/* Dare Lawal's update */
+
+.bug {
+	display: block !important;
+}
+.content {
+	border: 2px solid #abc;
+	margin: 20px 0;
+	display: grid !important;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 40px;
+	height: 300px !important;
+}
+
+.desc a {
+	background-color: teal;
+	padding: 20px;
+	border-radius: 10px;
+	color: white !important;
+}
+
+.desc a:hover {
+	background-color: white;
+	color: teal !important;
+	border: 2px solid teal;
+}
+
+.img img {
+	height: 250px !important;
+}
